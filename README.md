@@ -1,7 +1,5 @@
 # Unit 10 Assignment - Surfs Up! - Adv-Data-Storage-and-Retrieval-Homework
 
-![surfs-up.jpeg](Images/surfs-up.jpeg)
-
 Congratulations! You've decided to treat yourself to a long holiday vacation in Honolulu, Hawaii! To help with your trip planning, you need to do some climate analysis on the area. The following outlines what you need to do.
 
 ## Step 1 - Climate Analysis and Exploration
@@ -28,8 +26,6 @@ To begin, use Python and SQLAlchemy to do basic climate analysis and data explor
 
 * Plot the results using the DataFrame `plot` method.
 
-  ![precipitation](Images/precipitation.png)
-
 * Use Pandas to print the summary statistics for the precipitation data.
 
 ### Station Analysis
@@ -50,8 +46,6 @@ To begin, use Python and SQLAlchemy to do basic climate analysis and data explor
 
   * Plot the results as a histogram with `bins=12`.
 
-    ![station-histogram](Images/station-histogram.png)
-
 ### Temperature Analysis (Optional)
 
 * The starter notebook contains a function called `calc_temps` that will accept a start date and end date in the format `%Y-%m-%d` and return the minimum, average, and maximum temperatures for that range of dates.
@@ -63,8 +57,6 @@ To begin, use Python and SQLAlchemy to do basic climate analysis and data explor
   * Use the average temperature as the bar height.
 
   * Use the peak-to-peak (tmax-tmin) value as the y error bar (yerr).
-
-    ![temperature](Images/temperature.png)
 
 ### Other Recommended Analysis (Optional)
 
@@ -81,8 +73,6 @@ To begin, use Python and SQLAlchemy to do basic climate analysis and data explor
   * Load the list of daily normals into a Pandas DataFrame and set the index equal to the date.
 
   * Use Pandas to plot an area plot (`stacked=False`) for the daily normals.
-
-    ![daily-normals](Images/daily-normals.png)
 
 - - -
 
